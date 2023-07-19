@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #836FFF;
+    --cor1: #6959CD;
+    --cor2: #483D8B;
+    --cor3: #191970;
+    --cor4: #000080;
+}
+/*   Usa-se o root para facilitar o trabalho. Quando eu for usar a tag "color", essas cores já aparecerão como indicação para mim.    */
+
+/*
+* {
+    margin: 0px;
+    padding: 0px;
+
+    (todos os elementos do site terão essas configurações.)
+}
+*/
+
+
+/* para colocar icone do lado do link, utiliza-se
+
+classescolhida::after {
+    content '/codigo-do-icon';
+}
+*/
+
+body {
+    background-color: rgb(178, 235, 178);
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    text-indent: 2em;
+}
+header {  
+    background-image: linear-gradient(to bottom, rgba(10, 124, 38, 0.356), rgba(16, 88, 52, 0.884), rgb(8, 59, 25));
+    box-shadow: 1px 3px 16px rgba(0, 0, 0, 0.658);
+    color: white;    
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    text-align: left;   
+}
+
+header > nav > a {
+    font-weight: bold;
+    font-size: small;   
+    text-decoration: none;
+    color: rgb(232, 248, 228);
+    padding: 6px;
+}
+
+header > nav > a:hover {
+    color: rgb(8, 59, 25);
+    background-color: rgb(178, 235, 178);
+    border-radius: 2px;
+}
+
+header > p {
+    margin: 0px 0px 35px 0px;
+}
+
+main {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 6px 20px 0px 20px;
+    background-color: aliceblue;
+    width: 640px;
+    margin: 0px auto 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p {
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
+#titulo1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(3, 75, 3);
+    font-size: 37px;
+}
+
+.titulo {
+    margin: 7px;
+    background-image: linear-gradient(to right, rgba(10, 138, 67, 0.11),rgb(211, 231, 218), aliceblue);
+    color: rgb(4, 102, 4);    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+a.ref {
+    color: rgb(3, 75, 3);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1.4px;
+}
+
+.ref:hover {
+    background-color: rgba(11, 167, 89, 0.096);
+    border-radius: 2px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img1 {
+    width: 100%;
+}
+
+#img2 {
+    width: 100%;   
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(16, 88, 52, 0.884);
+    padding: 20px;
+}
+
+section#lista {
+    background-color: rgba(178, 235, 178, 0.562);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:10px;
+    margin: 20px 0px 0px 0px;
+}
+
+#lises {
+    text-align: left;
+}
+
+
+#h3 {
+    background-color: rgba(16, 88, 52, 0.884);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.555);
+}
+
+#paraglis {
+    padding: 0px 0px 25px 0px;
+}
+
+footer {
+    background-color: rgba(16, 88, 52, 0.884);
+    color: aliceblue;
+    margin: 0px 30px 0px 0px;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+}

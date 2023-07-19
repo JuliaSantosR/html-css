@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            /*
+             📝 LEMBRE-SE
+
+            Medidas Absolutas: 
+            	cm, mm, in, px, pt, pc
+                
+            Medidas Relativas:                
+            	em	->	relativo ao tamanho natural da fonte
+            	ex	->	relativo a altura x da fonte
+            	rem	->	tipo em, mas relativo a fonte configurada no body
+            	vw	->	relativo a largura da view port
+            	vh	->	relativo a altura da view port
+            	%	->	porcentagem
+
+            Recomendação w3c:  "px" ou "em"
+            Altura padrão:  16px ou 1em
+            */
+        /*
+        font-size: 16px;
+        font-size: 3em;
+        font-style: italic;
+        font-weight: normal;
+        shorthand font
+        */
+        font: italic bolder 1.2em 'Work Sans', sans-serif;
+        /* font-style -> font-weight -> font-size -> font-family */
+
+        }
+        p{
+            text-indent: 20px;
+        } /*Marcar paragrafo*/
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore eos ratione quia excepturi, aspernatur esse quos odit neque praesentium? Totam necessitatibus laudantium natus dignissimos. Veniam itaque aliquid obcaecati voluptates dolore ullam autem rem, omnis excepturi quia impedit consequatur nulla deserunt ut modi ratione voluptatibus accusantium pariatur expedita quidem maiores adipisci corporis! Soluta dicta nihil non consequatur nam vitae et eius ex perferendis recusandae voluptas vel commodi veniam repudiandae quas ad corporis magnam accusamus consequuntur modi, dolorum praesentium nulla? Repellat eum provident molestiae. Deserunt similique magni vitae, voluptatibus sequi libero, iure sed ab laudantium, a quos corporis reprehenderit fugit autem soluta! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto in ducimus nulla, nihil nesciunt fugiat exercitationem maiores deleniti cupiditate ut sunt culpa? Illum ab exercitationem ipsa quia dignissimos, qui repellat?
+    </p>
+
+    <h2>Subtítulo</h2>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A voluptates sed similique, libero autem ullam alias illo commodi dolore ad, maiores ipsa sit voluptas quam incidunt laborum vero accusamus at?
+    </p>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+
+
+        article > aside {
+            background-color: rgb(204, 211, 216);
+        }
+
+        nav {
+            background-color: rgb(214, 220, 224);
+            
+            box-shadow: 2px 2px 15px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(11, 111, 114);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        } /*qnd passar o mouse, fica uma linha em baixo*/
+
+        #assuntos {
+            text-align: center;
+            background-color: rgb(140, 219, 193);
+        }
+
+        footer {
+            background-color: rgb(9, 71, 71);
+            margin: 10px;
+            padding: 1px;
+            color: aliceblue;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        footer > p {
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p><strong>Esportes, Politica e Tecnologia</strong></p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate inventore repudiandae perferendis optio aperiam sed doloremque, aliquid deleniti nisi dolor alias nobis voluptatem itaque, rem quibusdam aspernatur autem illo provident.
+                </p>
+                <img src="../../Desafios/imagens/dan-droids-m.png" alt="">
+                    <aside>
+                        Artigo escrito por Julia Santos. 
+                    </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Julia Santos Rodrigues</p>
+    </footer>
+    
+</body>
+</html>
