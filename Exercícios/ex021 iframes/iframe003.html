@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegando entre frames na mesma pagina</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faca uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero animi obcaecati tenetur nesciunt voluptas, atque dolores, in porro deleniti ipsum quaerat qui quidem. Tempora doloribus magnam temporibus quas in asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit velit voluptatibus voluptatum! Odit hic quis omnis voluptatibus, accusamus tempora, doloremque ipsum nam laudantium architecto excepturi eum vero, modi unde.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira pagina</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda pagina</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira pagina</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolores id illum sequi assumenda quibusdam odit! Fugiat neque dolore ex rerum optio nostrum aut assumenda commodi libero. Itaque, voluptatem excepturi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quae animi corporis laborum praesentium magni et officiis eligendi sunt quisquam ipsam, nobis repudiandae illum totam rerum harum aut? Maxime, mollitia.</p>
+
+    <iframe name="frame" srcdoc="<h1>Escolha uma das opcoes acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam minus quidem debitis rem illum. Veritatis, facere quam, voluptate molestiae harum fuga, porro enim consequuntur hic cumque earum sequi qui odit!</p>" > 
+        Infelizmente seu navegaador nao e compativel com isso
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam minus quidem debitis rem illum. Veritatis, facere quam, voluptate molestiae harum fuga, porro enim consequuntur hic cumque earum sequi qui odit!</p>
+
+    
+</body>
+</html>
