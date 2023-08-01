@@ -9,17 +9,18 @@
 html, body {
     width: 100vw;
     height: 100vh;
-    background-color: orange;
+    background-color: rgba(0, 255, 136, 0.349);
 }
 
 body {
-    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url(../imagens/fotociborg.jpg) no-repeat center;
     background-size: cover;
+
 }
 
 main {
     position: relative;
-    height: 100vh;
+    height: 100vh;  
 }
 
 section#telefone {   
@@ -41,20 +42,22 @@ iframe#tela {
 }
 
 section#redes-sociais {
-    text-align: right;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
 section#redes-sociais img {
     border-radius: 50%;
     width: 50px;
-    margin: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.808);  
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px rgba(70, 54, 54, 0.733);  
     box-sizing: border-box;
 }   
 
 section#redes-sociais img:hover {
-    border: solid 2px rgba(255, 255, 255, 0.438);
-    transform: translate(1px, 1px);
+    border: solid 2px rgba(255, 255, 255, 0.24);
+    transform: translate(-1px, 1px);
     transition: transform .5s;
 }
 
