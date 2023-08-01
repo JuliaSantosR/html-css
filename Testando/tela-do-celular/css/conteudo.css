@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    background: black no-repeat top center;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+img {
+    width: 100%;
+}
+body::-webkit-scrollbar {
+    width: 0px;      
+}
+  
