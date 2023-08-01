@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes + seguros</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ad voluptas accusamus officiis, iste aliquid deleniti optio, odio sequi, maxime neque adipisci? Atque velit similique asperiores autem impedit ab nisi?</p>
+     <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin" referrerpolicy="no referrer"  frameborder="1">
+        Seu navegador nao e compativel com isso</iframe>
+        <!--
+            sandbox="sandbox"            
+                    = O conteudo do iframe NAO registra informacoes, apenas mostre
+
+            sandbox="allow-same-origin", "allow-scripts", "allow-forms"  
+                    = Permite coisas da mesma origem, uso de cripts e uso de formularios
+
+            referrerpolicy="no referrer" 
+                    = O conteudo do iframe NAO coleta infomacoes do usuario, apenas mostra
+        -->
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo temporibus ad, libero eveniet accusamus neque, iusto id vero minima facilis nisi error quo, atque corporis optio earum expedita itaque ex?</p>
+
+</body>
+</html>
