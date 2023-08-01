@@ -128,12 +128,26 @@ img {
     padding: 20px;
 }
 
+
 section#lista {
     background-color: rgba(178, 235, 178, 0.562);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding:10px;
     margin: 20px 0px 0px 0px;
+}
+
+
+
+.div {
+    display: flex;
+}
+/*pq o luan falou q e assim*/
+
+
+
+ul li:before {
+    content: '✔';
 }
 
 #lises {
@@ -152,6 +166,7 @@ section#lista {
 #paraglis {
     padding: 0px 0px 25px 0px;
 }
+
 
 footer {
     background-color: rgba(16, 88, 52, 0.884);
