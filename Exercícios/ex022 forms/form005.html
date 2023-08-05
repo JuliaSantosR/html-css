@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formualaio</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+<fieldset>
+    <legend>Sexo</legend>
+    <input type="radio" name="sexo" id="masc">
+    <label for="masc">Masculino</label> <br>
+    <input type="radio" name="sexo" id="fem">
+    <label for="fem">Feminino</label>
+    <!--Colocar o mesmo "name" para ambos quando for selecionar apenas uma opcao, caso contrario, mais de uma é selecionada e nao sera possivel desfazer a ação-->
+</fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="es-fut" id="es-fut"> <label for="es-fut">Futebol</label> <br>
+            <input type="checkbox" name="es-nat" id="es-nat"> <label for="es-nat">Natação</label><br>
+            <input type="checkbox" name="es-bas" id="es-bas"> <label for="es-bas">Basquete</label><br>
+            <input type="checkbox" name="es-ten" id="es-ten"> <label for="es-ten">Tênis</label>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limparr">
+        </p>
+    </form>
+</body>
+</html>
