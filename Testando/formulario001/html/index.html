@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>   
+   <div class="container">
+                  <!--Lado esquerdo-->
+      <div class="leftside">
+            <img id="img" src="../imagens/leftside.svg" alt="Ilustração">
+      </div>       
+                  <!--Lado direito-->
+      <div class="rightside">
+         <form action="#">
+            <div class="header">
+               <div class="title">
+                  <h1>Cadastre-se</h1>
+               </div>
+               <div class="login-button">
+                  <button><a href="login.html">Entrar</a></button>
+               </div>
+            </div>
+
+            <div class="form">
+               <div class="form-input">
+                  <label for="firstname">Primeiro Nome</label>
+                  <input type="text" name="firstname" id="firstname" placeholder="Digite seu primeiro nome" required>
+               </div>
+               <div class="form-input">
+                  <label for="surname">Sobrenome</label>
+                  <input type="text" name="surname" id="surname" placeholder="Digite seu sobrenome" required>
+               </div>                  
+               <div class="form-input">
+                  <label for="email">E-mail</label>
+                  <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+               </div>
+               <div class="form-input">
+                  <label for="tel">Celular</label>
+                  <input type="tel" name="tel" id="tel" placeholder="(xx) xxxx-xxxx" required>
+               </div>
+               <div class="form-input">
+                  <label for="password">Senha</label>
+                  <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+               </div>
+               <div class="form-input">
+                  <label for="password-confirm">Confirme sua senha</label>
+                  <input type="password" name="password-confirm" id="password-confirm" placeholder="Digite sua senha novamente" required>
+               </div>
+            </div>
+
+            <div class="gender">
+               <div class="gender-title">
+                  <h6>Gênero</h6>
+               </div>
+
+               <div class="sexo">
+                  <div class="gender-input"><input type="radio" name="sexo" id="fem" required> <label for="fem">Feminino</label></div>
+                  <div class="gender-input"><input type="radio" name="sexo" id="masc" required> <label for="masc">Masculino</label></div>
+                  <div class="gender-input"><input type="radio" name="sexo" id="outros" required> <label for="outros">Outros</label></div>
+                  <div class="gender-input"><input type="radio" name="sexo" id="none" required> <label for="none">Prefiro não dizer</label></div>
+               </div>
+            </div>
+
+            <div class="submit">
+               <button><a href="#">Continuar</a></button>
+            </div>
+         </form>
+      </div>
+   </div>
+</body>
+</html>
