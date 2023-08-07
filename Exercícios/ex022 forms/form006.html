@@ -6,16 +6,61 @@
     <title>Formulario</title>
 </head>
 <body>
+                                      <!--METODO GET TEM LIMITACAO DE 3000 BITES, CASO SEJA CAIXA DE RESPOSTA, USAR POST.-->
     <h1>Exemplo de Formulario</h1>
     <form action="cadastro.php">
-        <p>
+        <p> <!--Escolher cor-->
             <label for="icor">Cor:</label>
             <input type="color" name="cor" id="cor">
         </p>
-        <p>
-            <label for="nivel">Nivel de satisfacao</label>
-            <input type="range" name="nivel" id="nivel">
+
+        <p> <!--Barra de arrastar-->
+            <label for="nivel">Nivel de satisfacao: </label>
+            <input type="range" name="nivel" id="nivel" min="1" max="5">
         </p>
+
+        <p> <!--Selecionar estado de origem-->
+         <label for="est">Estado: </label>
+         <select name="estado" id="est">
+
+            <option value="">--- Escolha ---</option>
+            <optgroup label="Região Sudeste">
+               <option value="SP">São Paulo</option>
+               <option value="RJ">Rio de Janeiro</option>
+               <option value="MG">Minas Gerais</option>
+            </optgroup>
+
+            <optgroup label="Região Nordeste"
+               <option value="MA">Maranhão</option>
+               <option value="PE">Pernambuco</option>
+               <option value="RN">Rio Grande do Norte</option>
+            </optgroup>
+
+         </select>
+        </p>
+
+        <p> <!--Permite digitar/escolher uma das opções-->
+            <label for="prof">Profissão: </label>
+            <input type="text" name="prof" id="prof" list="lstprof">
+            <datalist id="lstprof">
+               <option>Administrador</option>
+               <option>Contabilista</option>
+               <option>Desenvolvedor</option>
+               <option>Professor</option>
+            </datalist>
+        </p>
+
+        <p> <!--Recomendado usar metodo POST-->
+         <label for="msg">Mensagem: </label> <br>
+         <textarea name="msg" id="msg" cols="30" rows="10" placeholder="DIGITE SUA MENSAGEM AQUI"></textarea>
+        </p>
+
+        <p> <!--Carregar arquivo-->
+            <label for="nivel">Foto do perfil: </label>
+            <input type="file" name="foto" id="foto">
+            <!--NEste caso, usa-se o metodo POST-->
+         </p>
+
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
