@@ -1,0 +1,83 @@
+@charset 'UTF-8';
+
+/* Todas as demais midias */
+
+/*  Typical Device Breakpoints 
+
+Mobile devices – 600px and down
+iPads, Tablets – 600px — 768
+Small screens, laptops – 768px — 992px
+Desktops, large screens – 992px — 1200px
+Extra large screens, TV – 1200px and up
+
+
+
+/* Como ja fiz um site expecifico para mobile, nao irei configurar isso, pois seria eufemismo.
+
+@media screen and (max-width:600px ) {
+
+}
+
+@media screen and (max-width: 600px) and (max-width:769px) {
+   
+}*/
+
+@media print { /* IMPRESSAO */
+   body {
+      background-image: url(imagens/back-print.jpg); /* Desnecessario, impressora nao imprime background*/
+      font-family: 'Courier New', Courier, monospace;
+   }
+
+   main {
+      border: 2px solid black;
+   }
+
+   main h1 {
+      text-shadow: none;
+      color: black;
+   }
+
+   #phone { display: none; }
+   #tablet{ display: none; }
+   #print { display: block; }
+   #pc { display: none; }
+   #tv { display: none; }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /*  TABLET */
+   body {
+      background-image: url(imagens/back-tablet.jpg);
+   }
+
+   #phone { display: none; }
+   #tablet{ display: block; }
+   #print { display: none; }
+   #pc { display: none; }
+   #tv { display: none; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /*  DESKTOP */
+   body {
+      background-image: url(imagens/back-pc.jpg);
+   }
+
+   #phone { display: none; }
+   #tablet{ display: none; }
+   #print { display: none; }
+   #pc { display: block; }
+   #tv { display: none; }
+}
+
+@media screen and (min-wdth: 1200px) { /*  GRANDES TELAS */
+   body {
+      background-image: url(imagens/back-tv.jpg);
+   }
+
+   #phone { display: none; }
+   #tablet{ display: none; }
+   #print { display: none; }
+   #pc { display: none; }
+   #tv { display: block; }
+}
+
