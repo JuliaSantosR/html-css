@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
+
+
 /*
       ### Headings
 
@@ -106,9 +108,13 @@ header {
 .get-started-for-free button {
    padding: 12.8px 57px;
    background-color: var(--Pink);
-   box-shadow: 1px 1px 10px rgba(131, 131, 131, 0.308);
+   box-shadow: 1px 1px 10px rgba(131, 131, 131, 0.39);
    border: none;
    border-radius: 25px;
+}
+
+.get-started-for-free button:hover {
+   background-color: hsl(322, 87%, 54%);
 }
 
 .get-started-for-free button a {
@@ -206,27 +212,36 @@ footer{
    padding-left: 35px;
 }
 
-/* FALE CONOSCO */
-.contact-us {
-   font-weight: 300;
+.logo-footer img {
+   width: 135px;
 }
 
+/* FALE CONOSCO */
+
 .contato {
+   display: flex;
    margin: 1rem;
-   padding-left: 1rem;
    color: white;
+   font-weight: 300;
 }
 
 .contato p a {
    text-decoration: none;
    color: white;
+   font-size: 14px;
 
 }
+
+.material-symbols-outlined {
+   margin-right: 16px;
+}
+
 
 /* SOBRE NOS */
 #about-us {
    margin: 1rem;
    margin-top: 3rem;
+   margin-left: 3.6rem;
    font-weight: 300;
    color: white;
 }
@@ -237,7 +252,6 @@ footer{
 
 
 /* PARTE DE BAIXO - LOGO E COPY RIGHT */
-.footer-footer {}
 
 /* REDES SOCIAIS JUNTAS*/
 .social-media {
@@ -262,3 +276,5 @@ footer{
    padding: 1rem;
    padding-bottom: 3rem;
 }
+
+
