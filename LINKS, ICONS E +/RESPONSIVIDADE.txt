@@ -1,0 +1,13 @@
+BREAKPOINTS MAIS ULTILIZADOS PARA RESPONSIVIDADE:
+
+*Mobile devices – 0px — 480px
+*iPads, Tablets – 576px — 768px
+*Small screens, laptops – 768px — 1024px
+*Desktops, large screens – 1024px — 1200px
+*Extra large screens, TV – 1200px, and more
+
+@media (min-width: 1200px) and (max-width: 600px){
+
+/* CSS */
+
+}

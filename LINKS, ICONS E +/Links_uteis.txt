@@ -1,0 +1,47 @@
+TESTE HTML + CSS : https://www.frontendmentor.io/challenges?difficulties=2&languages=HTML|CSS&types=free,free-plus
+
+ICONES HTML CDN : https://cdnjs.com/libraries/font-awesome
+
+FONT AWESOME : https://fontawesome.com/
+
+BORDA CSS:https://html-css-js.com/css/generator/box-shadow/
+
+BOTAO CSS: https://uiverse.io/
+
+SOMBRA CSS : https://getcssscan.com/css-box-shadow-examples
+
+TAGS HTML : https://www.w3schools.com/tags/default.asp
+
+Editor de foto : https://www.iloveimg.com/
+
+API JAVASCRIPT CHAT ETC... : https://apps.elfsight.com/panel/applications/
+
+EFEITO VIDRO : https://css.glass/
+
+Projetos FIGMA : https://www.figma.com/community
+
+slides carrossel: https://swiperjs.com/demos#default
+
+asci generator : https://patorjk.com/software/taag/#p=display&f=Big&t=EK1L%20CODING
+
+Imagens SVG: https://freesvgillustration.com/
+
+EFEITOS CSS ETC... : http://freefrontend.com/
+
+chat GPT: https://chat.openai.com/chat
+
+Keyframe css: https://webcode.tools/generators/css/keyframe-animation
+
+RE:DOM: https://redom.js.org/
+
+https://stresser.website/hub/hub
+
+https://hyperium.wtf/
+
+
+Livros de graça: https://annas-archive.org/
+
+
+CURSOS FREE: https://jornadadodev.com.br/
+
+Conhecimento é tudo: https://www.youtube.com/watch?v=O76ZfAIEukE&list=PLdsnXVqbHDUc7htGFobbZoNen3r_wm3ki&ab_channel=FabioAkita
